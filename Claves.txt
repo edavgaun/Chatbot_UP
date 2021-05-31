@@ -3,13 +3,13 @@
         
         "Agradecimiento":["Muchas gracias", "Gracias por tu respuesta", "Te agradezco tu tiempo", "Excelente, gracias"],
         
-        "Afirmacion":["Si", "Claro", "Por Supuesto", "De Acuerdo", "Está Bien", "Ok", "Excelente", "Muy bien"],
+        "Afirmacion":["Sí", "Si", "Claro", "Por Supuesto", "De Acuerdo", "Está Bien", "Ok", "Excelente", "Muy bien"],
         
         "Negacion":["No", "Falso", "Para Nada", "Ninguno", "Ahora No", "Nada más", "Nada"],
         
-        "Despedida":["Hasta pronto", "Hasta luego", "Nos vemos pronto", "Mucho éxito", "Cuidate mucho"],
+        "Despedida":["Hasta pronto", "Hasta luego", "Nos vemos pronto", "Mucho éxito", "Cuidate mucho", "Adiós"],
         
-        "Default":["¿Podrías reformular tu respuesta? No logro entenderla", "¿Ha que te refieres con eso?", 
+        "Default":["¿Podrías reformular tu respuesta? No logro entenderla", "¿A que te refieres con eso?", 
                    "No entiendo, ¿Podrías dar otra respuesta?"],
                    
         "Tema":["¿Qué tema te gustaría tratar el día de hoy?", "¿Qué situación te gustaría que trabajáramos en la sesión de hoy?"],

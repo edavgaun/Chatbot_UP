@@ -83,9 +83,10 @@ class Chatbot:
           ", La sesión\n\t estará compuesta de 5 pasos",
           "\n\t * Primero hay que plantear el tema y objetivo de la sesión.",
           "\n\t * Segundo es la importancia que tiene la sesión para ti.",
-          "\n\t * Tercero será explorar el tema y los elementos que la componen.",
-          "\n\t * Cuarto es la verificación de las ideas propuestas.",
-          "\n\t * Por último revisar el aprendizaje de la sesión.",
+          "\n\t * Tercero es la definición del indicador de que la sesión es exitosa para ti."
+          "\n\t * Cuarto será explorar el tema y los elementos que la componen.",
+          "\n\t * Quinto es la verificación de las ideas propuestas.",
+          "\n\t * Por último y ya para terminar, revisar el aprendizaje de la sesión.",
           "\n\t Comencemos    :-)")
 
     self.marco("inicio")
@@ -229,13 +230,11 @@ class Chatbot:
     self.Bot(0, self.respuesta("Cambio"), self.usuario, ",")
     self.Bot(0, self.respuesta("Indicador"))
     respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
-    for i in range(1):
-      self.Bot(1, self.respuesta("Comprensiva"))
-      self.Bot(0, self.respuesta("Indagar"))
-      respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
-      if self.Negativa(respuesta):
-        break
-    
+    if self.Negativa(respuesta):
+      self.Bot(1, "Es importante establecer el indicador, volvamos a intentarlo")
+    else:
+      self.Bot(1, self.respuesta("Agradecimiento")
+      break
     self.tiempo_indicador.append(str(datetime.now())[:-7])
 
   ##############################################################################
@@ -342,9 +341,6 @@ class Chatbot:
              self.tiempo_indicador, self.tiempo_explorar, self.tiempo_verif,
              self.tiempo_aprend]
       i=0
-      print(self.titulo_grow)
-      print(tiempos)
-      print(i)
       for tiempo in tiempos:
         file.write(self.titulo_grow[i] + " : " + tiempo[0] + " hasta " + tiempo[1] + "\n")
         i+=1
