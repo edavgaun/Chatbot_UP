@@ -323,7 +323,7 @@ class Chatbot:
 
   ##############################################################################
   def Resumen_final(self):
-    with open("Resumen " + self.usuario, "w+") as file:
+    with open("Conversation_X_" + str(datetime.now())[:10].replace("-","_") + ".txt", "w+") as file:
       file.write("ChatBot name: {} \n\n".format(self.name))
       file.write("User name: {} \n\n".format(self.usuario))
       file.write("Chat tópico: {} \n".format(self.tema))
