@@ -230,11 +230,6 @@ class Chatbot:
     self.Bot(0, self.respuesta("Cambio"), self.usuario, ",")
     self.Bot(0, self.respuesta("Indicador"))
     respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
-    if self.Negativa(respuesta):
-      self.Bot(1, "Es importante establecer el indicador, volvamos a intentarlo")
-    else:
-      self.Bot(1, self.respuesta("Agradecimiento")
-      break
     self.tiempo_indicador.append(str(datetime.now())[:-7])
 
   ##############################################################################
