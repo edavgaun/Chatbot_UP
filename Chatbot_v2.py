@@ -1,10 +1,6 @@
 import json
 import os
 from termcolor import colored
-from google.colab import drive
-drive.mount('/content/drive')
-os.chdir("/content/drive/MyDrive/Ciencia de datos UP/Coaching Chatbot")
-
 from datetime import datetime
 import random
 import re
