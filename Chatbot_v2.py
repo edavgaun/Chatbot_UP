@@ -5,6 +5,7 @@ from datetime import datetime
 import random
 import re
 import sys
+import requests
 class Chatbot:
   def __init__(self, name="ChatBot 2.0", claves_url=""):
     self.repetir=0
@@ -91,9 +92,8 @@ class Chatbot:
   
   ##############################################################################
   def Get_Diccionario_Claves(self, ruta=""):
-    with open(ruta, "r") as f:
-      contenido=f.read()
-      dictionary = json.loads(contenido)
+    resp = requests.get(ruta)
+    dictionary = json.loads(resp.text)
     return dictionary
 
   ##############################################################################
