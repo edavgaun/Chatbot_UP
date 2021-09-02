@@ -91,7 +91,7 @@ class Chatbot:
   
   ##############################################################################
   def Get_Diccionario_Claves(self, ruta=""):
-    with open(ruta+"Claves.txt", "r") as f:
+    with open(ruta, "r") as f:
       contenido=f.read()
       dictionary = json.loads(contenido)
     return dictionary
