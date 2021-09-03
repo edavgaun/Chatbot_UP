@@ -43,7 +43,7 @@
                     "¿Qué crees que haría alguien experto en el tema?", "¿Cómo lo manejaría alguien que fuera excelente en esto?",
                     "Si yo estuviera en tu situación, ¿qué me aconsejarías?"],
         
-        "Explorar3":["¿Qué otra opción se te ocurren te podrían servir para resolver esto qué buscas?",
+        "Explorar3":["¿Qué otra opción se te ocurre, te podría servir para resolver esto qué buscas?",
                     "¿Qué alternativa adicional crees que podrías ocupar?", "¿Qué otras opciones hay para lograr tu objetivo?", "¿Puedes proponer una alternativa B al problema?", "Idealmente, ¿qué podrías hacer para lograr tu objetivo?", "¿Habría alguna otra manera de abordar esto que me dices?"],
                     
         "Verificar1":["¿Cómo se siente esto que propones? {0} ¿Es realista?", 
@@ -57,9 +57,9 @@
                       "Cuando dices esto en voz alta, ¿cómo te hace sentir la solución que planteas?",
                       "¿Qué tan cómodo o cercano te sientes con tu respuesta?"],
 
-        "Aprendizaje":["Veo o siento que estás más tranquilo/a {0} ¿cómo estás?", 
-                       "¿Crees que hayas aprendido algo de esta sesión {0} para situaciones futuras?", 
-                       "{0} ¿Qué te llevarías para poder repetir estos pasos en un futuro?",
+        "Aprendizaje":["Veo o siento que estás más tranquilo/a ¿cómo estás?", 
+                       "¿Crees que hayas aprendido algo de esta sesión para situaciones futuras?", 
+                       "¿Qué te llevarías para poder repetir estos pasos en un futuro?",
                        "¿Hay algo importante que descubras en todo esto?"],
                      
         "Verbo":["lograr", "alcanzar", "cumplir", "completar", "llevar a cabo"]
