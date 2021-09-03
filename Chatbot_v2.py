@@ -291,7 +291,7 @@ class Chatbot:
       self.Cambiar_pronombres(self.mensaje_usuario())
 
     self.Bot(1, "Ya para casi terminar,")
-    self.Bot(0, "¿Qué emoción o sentimiento estás experimentando actualmente?")
+    self.Bot(0, "¿Qué emoción o sentimiento estás experimentando ahora que estamos terminando la sesión?")
     self.emocion2=self.Cambiar_pronombres(self.mensaje_usuario())
     self.tiempo_aprend.append(str(datetime.now())[:-7])
     
