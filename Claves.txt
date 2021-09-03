@@ -24,7 +24,7 @@
         "Cambio":["Empecemos con la siguiente parte de nuestra sesión", "Avancemos al siguiente punto en la agenda", "Vamos a pasar al siguiente punto", 
                   "Siguiendo con la sesión, pero en otro punto", "Sigamos avanzando con la sesión"],
         
-        "Rebotar0":["¿{0} representa mucha carga para tí?", "¿Cómo lo has manejado eso de {0} hasta ahora?",
+        "Rebotar0":["¿{0} representa mucha carga para tí?", "¿Cómo has manejado eso de {0} hasta ahora?",
                    "¿Qué te inquieta de {0}?", "¿Qué es lo que más te preocupa de {0}?"],
         
         "Rebotar":["¿Podrías mencionar más al respecto?", "¿Podrías desarrollar un poco más esta última respuesta?",
