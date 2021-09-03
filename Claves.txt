@@ -10,7 +10,7 @@
         "Despedida":["Hasta pronto", "Hasta luego", "Nos vemos pronto", "Mucho éxito", "Cuidate mucho", "Adiós"],
         
         "Default":["¿Podrías reformular tu respuesta? No logro entenderla", "Perdón, ¿A qué te refieres con eso?", 
-                   "No entiendo, ¿Podrías dar otra respuesta?", “Apenas estoy aprendiendo y hay cosas que no logro entender. ¿Podrías darme otra respuesta?"],
+                   "No entiendo, ¿Podrías dar otra respuesta?", "Apenas estoy aprendiendo y hay cosas que no logro entender. ¿Podrías darme otra respuesta?"],
                    
         "Tema":["¿Qué tema te gustaría tratar el día de hoy?", "¿Qué situación te gustaría que trabajemos en la sesión de hoy?"],
         
