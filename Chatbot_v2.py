@@ -215,13 +215,14 @@ class Chatbot:
     self.Bot(0, self.respuesta("Cambio"), self.usuario, ",")
     self.Bot(0, self.respuesta("Indicador"))
     respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
-    while True:
-      self.Bot(1, self.respuesta("Comprensiva"))
-      self.Bot(0, self.respuesta("Indagar"))
-      self.Bot(0, "O si ya estás conforme, solo dime 'No'")
-      respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
-      if self.Negativa(respuesta):
-        break
+    #while True:
+    #  self.Bot(1, self.respuesta("Comprensiva"))
+    # self.Bot(0, self.respuesta("Indagar"))
+    # self.Bot(0, "O si ya estás conforme, solo dime 'No'")
+    # respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
+    # if self.Negativa(respuesta):
+    #   break
+    self.Bot(1, self.respuesta("Comprensiva"))
     self.tiempo_indicador.append(str(datetime.now())[:-7])
 
   ##############################################################################
