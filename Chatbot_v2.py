@@ -197,7 +197,7 @@ class Chatbot:
     self.tiempo_import.append(str(datetime.now())[:-7])
     self.Bot(1, self.respuesta("Comprensiva"), self.usuario, ";")
     self.Bot(0, self.respuesta("Cambio"), ",")
-    self.Bot(1, self.respuesta("Importancia"))
+    self.Bot(1, self.respuesta("Importancia").format(self.tema.lower()))
     respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
     self.Bot(0, self.respuesta("Rebotar"))
     respuesta=self.Cambiar_pronombres(self.mensaje_usuario())
