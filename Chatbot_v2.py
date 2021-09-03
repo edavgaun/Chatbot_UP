@@ -194,6 +194,7 @@ class Chatbot:
     
   ##############################################################################
   def Importancia(self):
+    self.tiempo_import.append(str(datetime.now())[:-7])
     self.Bot(1, self.respuesta("Comprensiva"), self.usuario, ";")
     self.Bot(0, self.respuesta("Cambio"), ",")
     self.Bot(1, self.respuesta("Importancia"))
