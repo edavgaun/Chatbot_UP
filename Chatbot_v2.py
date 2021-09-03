@@ -339,8 +339,7 @@ class Chatbot:
 
   ##############################################################################
   def Resumen_final(self):
-    path=os.getcwd()
-    with open(path + "Resumen " + self.usuario, "w+") as file:
+    with open("Resumen_" + self.usuario + "_" + self.usuario_apellido, "w+") as file:
       file.write("ChatBot name: {} \n\n".format(self.name))
       file.write("User name: {} \n\n".format(self.usuario))
       file.write("Chat tópico: {} \n".format(self.tema))
