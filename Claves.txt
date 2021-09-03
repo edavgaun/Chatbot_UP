@@ -15,11 +15,11 @@
         "Tema":["¿Qué tema te gustaría tratar el día de hoy?", "¿Qué situación te gustaría que trabajemos en la sesión de hoy?"],
         
         "Importancia":["¿Porqué es importante para ti {0}?", "¿Cuál es la relevancia que tiene {0} para ti?",
-                        "¿Qué te gustaría revisar con respecto a {0}?", “¿Qué nivel de significado tiene {0} en tu vida?”],
+                        "¿Qué te gustaría revisar con respecto a {0}?", "¿Qué nivel de significado tiene {0} en tu vida?"],
         
         "Comprensiva":["Entiendo", "De acuerdo", "Comprendo", "Ya veo", "Interesante", "Ok"],
         
-        "Indagar":["¿Qué más?", "¿Qué otra cosa?", "Dime más", “Interesante, ¿Algo más al respecto?”],
+        "Indagar":["¿Qué más?", "¿Qué otra cosa?", "Dime más", "Interesante, ¿Algo más al respecto?"],
         
         "Cambio":["Empecemos con la siguiente parte de nuestra sesión", "Avancemos al siguiente punto en la agenda", "Vamos a pasar al siguiente punto", 
                   "Siguiendo con la sesión, pero en otro punto", "Sigamos avanzando con la sesión"],
@@ -44,7 +44,7 @@
                     "Si yo estuviera en tu situación, ¿qué me aconsejarías?"],
         
         "Explorar3":["¿Qué otra opción se te ocurren te podrían servir para resolver esto qué buscas?",
-                    "¿Qué alternativa adicional crees que podrías ocupar?", "¿Qué otras opciones hay para lograr tu objetivo?", “¿Puedes proponer una alternativa B al problema?”, "Idealmente, ¿qué podrías hacer para lograr tu objetivo?", "¿Habría alguna otra manera de abordar esto que me dices?"],
+                    "¿Qué alternativa adicional crees que podrías ocupar?", "¿Qué otras opciones hay para lograr tu objetivo?", "¿Puedes proponer una alternativa B al problema?", "Idealmente, ¿qué podrías hacer para lograr tu objetivo?", "¿Habría alguna otra manera de abordar esto que me dices?"],
                     
         "Verificar1":["¿Cómo se siente esto que propones? {0} ¿Es realista?", 
                      "¿Qué ajustes tendrías que hacer para que te sintieras más cómodo\n\t con esta propuesta de {0}?",
@@ -62,5 +62,5 @@
                        "{0} ¿Qué te llevarías para poder repetir estos pasos en un futuro?",
                        "¿Hay algo importante que descubras en todo esto?"],
                      
-        "Verbo":["lograr", "alcanzar", "cumplir", “completar”, “llevar a cabo”]
+        "Verbo":["lograr", "alcanzar", "cumplir", "completar", "llevar a cabo"]
 }
